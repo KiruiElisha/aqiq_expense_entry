@@ -226,14 +226,15 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+# In your_app/hooks.py
+
+# In your_app/hooks.py
 
 fixtures = [
- 
     {
         "dt": "DocType",
-        "filters": [
-            ["name", "in", ["Expense Entry Account","Expense Entry"]],
-            ["custom", "=", 1]
-        ]
+        "filters": [["name", "in", ["Expense Entry", "Expense Entry Account"]]]
     }
-    ]
+]
+
+
