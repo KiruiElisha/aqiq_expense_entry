@@ -235,7 +235,5 @@ fixtures = [
             ["name", "in", ["Expense Entry Account","Expense Entry"]],
             ["custom", "=", 1]
         ]
-    },
-    
-
-]
+    }
+    ]
